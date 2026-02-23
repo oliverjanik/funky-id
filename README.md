@@ -1,6 +1,6 @@
 # FunkyId
 
-[![NuGet](https://img.shields.io/nuget/v/OJ.FunkyId.svg)](https://www.nuget.org/packages/OJ.FunkyId)
+[![NuGet](https://img.shields.io/nuget/v/AidDev.FunkyId.svg)](https://www.nuget.org/packages/AidDev.FunkyId)
 [![CI](https://github.com/oliverjanik/funky-id/actions/workflows/ci.yml/badge.svg)](https://github.com/oliverjanik/funky-id/actions/workflows/ci.yml)
 
 Memorable identifier generator for .NET. Produces human-friendly IDs in the format `adjective_noun_tag`.
@@ -14,13 +14,13 @@ jazzy_capybara_q4x8
 ## Installation
 
 ```bash
-dotnet add package OJ.FunkyId
+dotnet add package AidDev.FunkyId
 ```
 
 ## Usage
 
 ```csharp
-using OJ.FunkyId;
+using AidDev.FunkyId;
 
 // Generate an ID with the default 4-character tag
 string id = FunkyIdGenerator.Generate();

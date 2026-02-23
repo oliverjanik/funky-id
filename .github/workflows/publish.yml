@@ -23,7 +23,9 @@ jobs:
         run: dotnet build FunkyId/FunkyId.csproj --configuration Release
 
       - name: Pack
-        run: dotnet pack FunkyId/FunkyId.csproj --configuration Release --no-build -o dist
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          dotnet pack FunkyId/FunkyId.csproj --configuration Release --no-build -o dist -p:Version=$VERSION
 
       - name: NuGet login
         uses: NuGet/login@v1

@@ -4,7 +4,7 @@ Memorable identifier generator library. Produces IDs in the format `adjective_no
 
 ## Projects
 
-- `FunkyId/` — class library (net8.0), published as NuGet package `OJ.FunkyId`
+- `FunkyId/` — class library (net8.0), published as NuGet package `AidDev.FunkyId`
 - `Tests/` — xUnit test project (net10.0, requires .NET 10 SDK)
 
 ## Commands

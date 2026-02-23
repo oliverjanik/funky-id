@@ -1,5 +1,5 @@
 using System.Text.RegularExpressions;
-using OJ.FunkyId;
+using AidDev.FunkyId;
 
 namespace Tests;
 

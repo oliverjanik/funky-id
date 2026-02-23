@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography;
 
-namespace OJ.FunkyId;
+namespace AidDev.FunkyId;
 
 public static class FunkyIdGenerator
 {
